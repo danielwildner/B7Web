@@ -7,3 +7,12 @@ body{
 .texto {
     font-style: italic;
 }
+p {
+    background-color: aqua;
+    border-radius: 15px;
+}
+.circulo {
+    background-color: brown;
+    border: 5px solid salmon;
+    padding: 10px;
+}

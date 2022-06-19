@@ -18,6 +18,11 @@
     <a href="paginas/login.html" target="_blank" title="Login"><button>Fazer login</button></a>
     <h2>Área de Cadastro</h2>
         <form action="paginas/login.html" method="GET">
+            <select name="ordenacao">
+                <option></option>
+                <option value="alfabetic">Alfabética</option>
+                <option value="last">Mais recentes</option>
+            </select>
             <input type="text" name="usuario">
             <input type="color" name="cor">
             <input type="date" name="data">
@@ -25,7 +30,14 @@
         </form>
     <h2>Área de Login</h2>
         <form>
-
+            <label>Escreva aqui:<br>
+                <textarea name="nome">
+                </textarea>
+            </label>
+        <br>
+            <input type="checkbox" id="teste">
+            <label for="teste">Eu declaro que li as condições blá blá blá</label>
+            <button>Fazer login 2</button>
         </form>
 
     <br>

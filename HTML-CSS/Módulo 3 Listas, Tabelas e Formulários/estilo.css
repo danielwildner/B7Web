@@ -21,3 +21,22 @@ a {
 a:hover {
     text-decoration: underline;
 }
+table {
+    width: 600px;
+}
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+table thead {
+    background-color: gold;
+}
+table tbody {
+    background-color: green;
+}
+tbody tr:hover {
+    background-color: greenyellow;
+}
+tbody tr:nth-child(even) {
+    color: aliceblue;
+}

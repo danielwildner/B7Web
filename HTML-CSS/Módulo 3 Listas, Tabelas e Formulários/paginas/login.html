@@ -1,1 +1,55 @@
-Página de login
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../estilo.css">
+</head>
+<body>
+    <form method="POST" action="teste.php" enctype="multipart/form-data">
+        <input type="hidden" name="pais" value="Paysandu">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>
+                Primeiro nome:<br>
+                <input type="text" name="nome" placeholder="Primeiro nome" required minlength="2" maxlength="5">
+            </label><br>
+            <label>
+                Sobrenome:<br>
+                <input type="text" name="sobrenome" placeholder="Sobrenome" required>
+            </label><br>
+            <label>
+                Foto:<br>
+                <input type="file" name="foto" accept="image/*">
+            </label><br>
+
+            <label>
+                Idade:<br>
+                <input type="number" name="idade" placeholder="Idade" min="18" required>
+            </label><br>
+            <label>
+                Data de Nascimento:<br>
+                <input type="date" name="dataNasc" placeholder="Data de Nascimento" min="2022-06-14" required>
+            </label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <label>
+                Nome da Empresa:<br>
+                <input type="text" name="nomeEmpresa" placeholder="Nome da Empresa">
+            </label><br>
+            <label>
+                Cargo na Empresa:<br>
+                <input type="text" name="cargoEmpresa" placeholder="Cargo na Empresa">
+            </label><br>
+        </fieldset>
+        <input type="submit" value="Cadastrar">
+    </form>
+    
+</body>
+</html>

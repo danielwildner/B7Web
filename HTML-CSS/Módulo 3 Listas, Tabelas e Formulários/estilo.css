@@ -68,3 +68,12 @@ input[type=text], textarea {
  button:hover {
     background-color: goldenrod;
  }
+ fieldset {
+    background-color: #eee;
+    margin-bottom: 20px;
+    border: 2px solid black;
+ }
+ legend {
+    background-color: black;
+    color: white;
+ }

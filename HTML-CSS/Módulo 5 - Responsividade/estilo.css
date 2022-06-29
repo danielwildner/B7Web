@@ -1,5 +1,8 @@
+:root {
+    --blkcolor: #000;
+}
 body {
-    background-color: black;
+    background-color: var(--blkcolor);
     display: flex;
 }
 img {
@@ -38,7 +41,7 @@ div {
     width: 200px;
     height: 200px;
     background-color: brown;
-    border: 1px solid black;
+    border: 1px solid var(--blkcolor);
 }
 @media (orientation: landscape) {
     body {

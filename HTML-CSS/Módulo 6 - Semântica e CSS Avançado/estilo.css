@@ -10,3 +10,9 @@ video {
     width: 320px;
     height: 240px;
 }
+.exe {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    background: linear-gradient(-45deg ,white, blue) ;
+}

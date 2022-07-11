@@ -31,4 +31,9 @@ video {
     height: 200px;
     background: blue;
     background: linear-gradient(-45deg ,white, blue) ;
+    box-shadow: 5px 5px 5px #888;
+    transition: all 1s linear;
+}
+.exe:hover {
+    width: 300px;
 }

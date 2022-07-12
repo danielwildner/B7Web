@@ -37,3 +37,10 @@ video {
 .exe:hover {
     width: 300px;
 }
+.ww {
+    margin-top: 500px;
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+    word-wrap: break-word;
+}

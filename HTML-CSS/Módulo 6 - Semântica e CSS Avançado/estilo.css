@@ -44,3 +44,7 @@ video {
     border: 1px solid black;
     word-wrap: break-word;
 }
+q {
+    color: #999;
+    font-style: italic;
+}

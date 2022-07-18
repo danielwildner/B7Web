@@ -48,3 +48,14 @@ q {
     color: #999;
     font-style: italic;
 }
+figure {
+    padding: 5px;
+    margin: 0;
+    border: 1px solid #ccc;
+}
+figcaption {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 2px;
+}

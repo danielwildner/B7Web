@@ -1,0 +1,14 @@
+h2 {
+    color: brown;
+}
+body {
+    background-color: burlywood;
+}
+table {
+    background-color: blueviolet;
+    color: white;
+}
+table, th, td {
+    border: 1px solid white;
+    padding: 2px;
+}

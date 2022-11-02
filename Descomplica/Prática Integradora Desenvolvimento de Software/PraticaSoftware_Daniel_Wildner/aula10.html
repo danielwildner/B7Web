@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática Integradora Desenvolvimento de Software</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <main>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" name="Nome" id="nome" required>
+            <label for="nome">Sobrenome:</label>
+            <input type="text" name="Nome" id="sobrenome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="exemplo@exemplo.com" required>
+            <input type="button" value="Enviar formulário" class="enviar">
+        </form>
+        <br><br>
+    </main>
+    <script>
+        function formulario() {
+            var pegarnome = document.getElementById("nome").value;
+            var pegarsobrenome = document.getElementById("sobrenome").value;
+            var pegaremail = document.getElementById("email").value;
+
+            navigator.clipboard.writeText(pegarnome.value);
+
+            navigator.clipboard.writeText(pegarsobrenome.value);
+
+            navigator.clipboard.writeText(pegaremail.value);
+
+            alert("Formulário pronto! " + "\r\n" +pegarnome + "\r\n"+ pegarsobrenome + "\r\n"+ pegaremail + "\r\n");
+            console.log(pegarnome);
+            console.log(pegarsobrenome);
+            console.log(pegaremail);
+        }
+        var input = document.querySelector(".enviar");
+        input.onclick = formulario;
+    </script>
+</body>
+</html>
